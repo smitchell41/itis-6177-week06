@@ -8,7 +8,7 @@ import { HttpClient } from '@angular/common/http';
 })
 export class ListComponent implements OnInit {
 
-public employeeList = [{a: 1},{b: 2}];
+public employeeList = [];
 
   constructor(private http: HttpClient) { }
 

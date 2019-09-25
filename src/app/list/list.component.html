@@ -1,6 +1,7 @@
 <p>list works!</p>
-<ul>
+<ul *ngIf="employeeList.length">
   <li *ngFor="let e of employeeList">
-    {{e | json}}
+    <b>{{e.first_name}}</b>
+    {{e.last_name}}
   </li>
 </ul>
